@@ -83,4 +83,41 @@ height: 56.008px;
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     padding-top: 20px;
+}
+.banner-title{
+     color: #FFF;
+font-size: 64px;
+font-weight: 800;
+}
+.banner-discription{
+     width: 676px;
+     color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+/* this is input section style */
+
+.input-section{
+     
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+align-items: center;
+justify-content: center;
+margin-right: 185px;
+margin-left: 185px;
+}
+input{
+     width: 120px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+text-align: center;
+border: 0px;
 }
