@@ -24,19 +24,22 @@
 .title {
      display: flex;
      align-items: center;
-     
-}
-.title> img{
-     width: 48px;
-height: 56.008px;
 
 }
-.nav-title{
-  color: #131318;
-  font-weight: 800;
-  font-size: 2.2rem;
+
+.title>img {
+     width: 48px;
+     height: 56.008px;
+
 }
-.color{
+
+.nav-title {
+     color: #131318;
+     font-weight: 800;
+     font-size: 2.2rem;
+}
+
+.color {
      color: #FF5400;
      font-weight: 800;
      font-size: 2.2rem;
@@ -66,58 +69,124 @@ height: 56.008px;
      font-weight: 700;
 
 }
+
 /* banner style section */
 
-.banner{
+.banner {
      height: 500px;
      width: 100%;
      border-radius: 16px;
-     background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group\ 13\ \(1\)\ \(1\).png') ;
+     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group\ 13\ \(1\)\ \(1\).png');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
 
 }
-.banner-continer{
+
+.banner-continer {
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
      padding-top: 20px;
 }
-.banner-title{
+
+.banner-title {
      color: #FFF;
-font-size: 64px;
-font-weight: 800;
+     font-size: 4.3rem;
+     font-weight: 800;
 }
-.banner-discription{
+
+.banner-discription {
      width: 676px;
      color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
 }
+
 /* this is input section style */
 
-.input-section{
-     
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-display: inline-flex;
-padding: 16px;
-align-items: flex-start;
-gap: 24px;
-align-items: center;
-justify-content: center;
-margin-right: 185px;
-margin-left: 185px;
+.input-section {
+
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+     display: inline-flex;
+     padding: 16px;
+     align-items: flex-start;
+     gap: 24px;
+     align-items: center;
+     justify-content: center;
+     margin-top: 48px;
+     margin-left: 299px;
 }
-input{
-     width: 120px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-text-align: center;
-border: 0px;
+
+input {
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     background: #FFF;
+     text-align: center;
+     border: 0px;
+     color: rgba(19, 19, 24, 0.50);
+     font-size: 16px;
+     font-weight: 400;
+
+}
+
+#when {
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     background: #FFF;
+     text-align: center;
+     border: 0px;
+     color: rgba(19, 19, 24, 0.50);
+     font-size: 16px;
+     font-weight: 400;
+}
+
+#select-type {
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     background: #FFF;
+     text-align: center;
+     border: 0px;
+     color: rgba(19, 19, 24, 0.50);
+     font-size: 16px;
+     font-weight: 400;
+}
+
+.btn-primary {
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     border: 0px;
+     background-color: #FF5400;
+     padding-left: 10px;
+     color: #FFF;
+     text-align: center;
+     font-size: 14px;
+     font-weight: 700;
+     display: flex;
+     align-items: center;
+}
+
+.btn-nav>img {
+     align-items: center;
+}
+
+/* this is main section styles */
+.Popular-turs{
+     margin-top: 100px;
+}
+.Popular-continer{
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
