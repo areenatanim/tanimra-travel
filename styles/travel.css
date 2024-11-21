@@ -164,7 +164,6 @@ input {
 .btn-primary {
      width: 174px;
      height: 52px;
-     flex-shrink: 0;
      border-radius: 8px;
      border: 0px;
      background-color: #FF5400;
@@ -173,8 +172,7 @@ input {
      text-align: center;
      font-size: 14px;
      font-weight: 700;
-     display: flex;
-     align-items: center;
+     
 }
 
 .btn-nav>img {
@@ -185,8 +183,25 @@ input {
 .Popular-turs{
      margin-top: 100px;
 }
-.Popular-continer{
+.Popular-continer {
      display: flex;
      align-items: center;
      justify-content: center;
+}
+.Popular-discription{
+margin-right: 50px;
+}
+.Popular-title{
+color: #131318;
+font-size: 40px;
+font-weight: 800;
+
+}
+.Popular-para{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+width: 577px;
+margin-right: 50px;
+margin-bottom: 35px;
 }
