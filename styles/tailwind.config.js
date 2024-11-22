@@ -8,9 +8,9 @@ module.exports = {
 }
 //daisy ui import
 
-module.exports = {
-  //...
-  plugins: [
-    require('daisyui'),
-  ],
-}
+// module.exports = {
+//   //...
+//   plugins: [
+//     require('daisyui'),
+//   ],
+// }
