@@ -208,5 +208,18 @@ font-weight: 800;
 /* Choose Your Destination section style */
 
 .img-card-one{
-     background-image: url('/');
+     background-image: url('/Images/Rectangle 5.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
+
 }
