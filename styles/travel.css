@@ -177,6 +177,10 @@ input {
      background-color: #FF5400;
      padding-left: 10px;
      color: #FFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
      text-align: center;
      font-size: 14px;
      font-weight: 700;
@@ -206,7 +210,7 @@ font-weight: 800;
 
 }
 /* Choose Your Destination section style */
-
+/* this is first section */
 .img-card-one{
      background-image: url('/Images/Rectangle 5.png');
      background-size: cover;
@@ -216,10 +220,104 @@ font-weight: 800;
      text-align: center;
      display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: center; 
      color: #FFF;
      font-size: 28px;
      font-weight: 800;
      height: 100%;
 
+}
+.img-card-two{
+     background-image: url('/Images/Rectangle 8.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
+
+}
+/* this second section */
+.img-card-two-one{
+     background-image: url('/Images/Rectangle 6.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
+     
+}
+.img-card-two-two{
+     background-image: url('/Images/Rectangle 7.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
+}
+.img-card-two-three{
+     background-image: url('/Images/Rectangle 9.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
+}
+/* this is section three */
+.img-card-three-one{
+background-image: url('/Images/Rectangle 11.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
+}
+.img-card-three-two{
+background-image: url('/Images/Rectangle 10.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     color: #FFF;
+     font-size: 28px;
+     font-weight: 800;
+     height: 100%;
 }
