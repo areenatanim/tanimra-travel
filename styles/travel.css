@@ -321,3 +321,16 @@ background-image: url('/Images/Rectangle 10.png');
      font-weight: 800;
      height: 100%;
 }
+/* our services carde section */
+.service-carde{
+width: 573px;
+height: 284px;
+padding: 20px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+/* Deals & Discounts */
+.frame-icon {
+     
+}
