@@ -199,6 +199,7 @@ input {
      display: flex;
      align-items: center;
      justify-content: center;
+     gap: 30px;
 }
 .Popular-discription{
 margin-right: 50px;
@@ -364,4 +365,9 @@ background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 margin: 56px 620px 55px 56px;
 }
+/*  Perfect Place  */
+.list{
+     color: #131318;
+}
+/* news and  */
 
