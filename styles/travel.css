@@ -331,6 +331,37 @@ border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 }
 /* Deals & Discounts */
-.frame-icon {
+.glass-carde {
+     background-image: url('/Images/Group 39.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 16px;
+     width: 100%;
+     height: 500px;
+}
+.carde-contant{
+     border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin: 56px 56px 55px 620px;
+}
+.glass-carde-second {
+          background-image: url('/Images/Group 40.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 16px;
+     width: 100%;
+     height: 500px;
      
 }
+.carde-contant-second{
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin: 56px 620px 55px 56px;
+}
+
