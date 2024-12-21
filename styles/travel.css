@@ -17,8 +17,12 @@ margin-right: 50px;
 margin-bottom: 35px;
 }
 
-.body {
+.header {
      margin-left: 135px;
+     margin-right: 135px;
+}
+.main{
+      margin-left: 135px;
      margin-right: 135px;
 }
 

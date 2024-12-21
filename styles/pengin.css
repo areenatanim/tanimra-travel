@@ -7,6 +7,46 @@
      font-optical-sizing: auto;
      font-style: normal;
 }
+.btn-primary{
+     border-radius: 10px;
+background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+width: 170px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.btn-primary> img{
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+.main{
+     margin-left: 135px;
+     margin-right: 135px;
+}
+/* primary text */
+.title-primary{
+color: #FABE4C;
+font-size: 80px;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+.second-title{
+color: #363958;
+font-size: 80px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.pirnary-text{
+color: #3E3E3E;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
 
 /* nav styles section */
 
@@ -67,4 +107,11 @@
 /* this is the banner section */
 .header{
      background: #FFFBF0;
+}
+/* this is the cared section  */
+.cared{
+     border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+
 }
