@@ -1,0 +1,94 @@
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* shared styles section */
+.body {
+     font-family: "Mulish", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+
+}
+
+/* this is nav section style  */
+      .nav-continer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.title {
+     display: flex;
+     align-items: center;
+
+}
+
+.title>img {
+     width: 48px;
+     height: 56.008px;
+
+}
+
+.nav-title {
+     color: #131318;
+     font-weight: 800;
+     font-size: 2.2rem;
+}
+
+.color {
+     color: #FF5400;
+     font-weight: 800;
+     font-size: 2.2rem;
+}
+
+.nav>ul {
+     display: flex;
+}
+
+.nav li {
+     list-style: none;
+     margin-right: 44px;
+}
+
+.nav a {
+     text-decoration: none;
+     color: #424242;
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 400;
+}
+
+.primary-text {
+     color: #FF5400;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 700;
+
+}
+/* this is the banner section */
+.primary-para{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+
+}
+.primary-heading{
+color: #FFF;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+width: 519px;
+
+}
+.header{
+background: #264653;
+height: 598px;
+flex-shrink: 0;
+}
+.btn-primary{
+     color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
