@@ -8,6 +8,35 @@
      font-style: normal;
 
 }
+.primary-para{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+width: 519px;
+
+}
+.primary-heading{
+color: #FFF;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+width: 519px;
+
+}
+.btn-primary{
+     color: #FFF;
+font-size: 16px;
+font-weight: 500;
+border-radius: 5px;
+background: #E76F51;
+display: flex;
+width: 168px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
 
 /* this is nav section style  */
       .nav-continer {
@@ -64,31 +93,20 @@
 
 }
 /* this is the banner section */
-.primary-para{
-color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
 
-}
-.primary-heading{
-color: #FFF;
-font-size: 65px;
-font-style: normal;
-font-weight: 700;
-width: 519px;
-
-}
 .header{
 background: #264653;
-height: 598px;
+height: 498px;
 flex-shrink: 0;
 }
-.btn-primary{
-     color: #FFF;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+
+/* this is the main section */
+hr{
+width: 58.5px;
+height: 2px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #E76F51;
+color: #FF5400;
+
 }
