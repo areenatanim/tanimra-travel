@@ -1,65 +1,79 @@
-/* poppins font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 /* shred styles section */
 
-* {
-     font-family: "Poppins", sans-serif;
+.body {
+     font-family: "Mulish", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+
 }
 
 /* this is the body section */
-.b0dy{
+/* .body{
      max-width: 1450px;
 }
 /* this is header section styles */
-.header {
-     padding: 20px;
-     width: 100%;
-     height: 700px;
-     /* background-image: url('/images/Circle\ design.svg');
-     background-position: bottom;
-     background-repeat: no-repeat;
-     background-position-x: right; */
-}
 
-/* navbar styles */
-
-.nav {
+/* this is nav section style  */
+      .nav-continer {
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      align-items: center;
 }
 
-.nav-title {
-     color: #3A3A3A;
-     font-size: 24px;
-     font-weight: 700;
+.title {
+     display: flex;
+     align-items: center;
 
+}
+
+.title>img {
+     width: 48px;
+     height: 56.008px;
+
+}
+
+.nav-title {
+     color: #131318;
+     font-weight: 800;
+     font-size: 2.2rem;
+}
+
+.color {
+     color: #FF5400;
+     font-weight: 800;
+     font-size: 2.2rem;
 }
 
 .nav>ul {
      display: flex;
 }
 
-ul>li {
+.nav li {
      list-style: none;
-     margin-right: 34px;
-     color: #E02C6D;
-     font-size: 16px;
-     font-weight: 600;
-
+     margin-right: 44px;
 }
 
-ul>li a {
+.nav a {
      text-decoration: none;
-     color: #3A3A3A;
-     font-size: 16px;
-     font-weight: 600;
-     width: 62px;
-     height: 34.8px;
+     color: #424242;
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 400;
+}
+
+.primary-text {
+     color: #FF5400;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 700;
 
 }
+
+
 
 /* banner styles */
 .discription-continer {
@@ -108,7 +122,7 @@ border: 0;
 .img-continer {
      margin-top: 51px;
      padding: 30px;
-     background-image: url('/images/Circle\ design.svg');
+     background-image: url('/Images/influncer/Circle design.svg');
      background-position: bottom;
      background-repeat: no-repeat;
      background-position-x: right;
@@ -186,4 +200,18 @@ font-weight: 400;
 color: #5E6366;
 font-size: 14px;
 font-weight: 700;
+}
+
+/* this is the footer section */
+.footer{
+     background: rgba(19, 19, 24, 0.05);
+     
+}
+.Popular-para{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+width: 577px;
+margin-right: 50px;
+margin-bottom: 35px;
 }

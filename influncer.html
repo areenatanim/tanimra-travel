@@ -6,8 +6,12 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Influncer Product</title>
      <link rel="stylesheet" href="/styles/product.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="shortcut icon" href="./Images/Group 40071 (2).png" type="image/x-icon">
+     <!-- tailwind script link -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- daisy ui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 <!-- this is the body section -->
@@ -15,17 +19,26 @@
 <body class="body">
      <!-- this is the header section -->
      <header class="header">
-          <nav class="nav">
-               <h3 class="nav-title">Influencer products</h3>
-               <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Sign up</a></li>
-                    <li><a href="">Log in</a></li>
-                    <li><i class="fas fa-search"></i></li>
-                    <li><i class="fas fa-shopping-cart"></i></li>
-               </ul>
-          </nav>
+          <div class="nav-continer">
+               <div class="title">
+                    <img src="./Images/Group 40071 (2).png" alt="">
+                    <h3 class="nav-title">
+                         Sky <span class="color">Travel</span>
+                    </h3>
+               </div>
+               <nav class="nav">
+                    <ul>
+                         <li><a href="./index.html"> <span class="primary-text">Home</span> </a></li>
+                         <li><a href="./tea.html">Tea House</a></li>
+                         <li><a href="./penguin.html">Penguin Fashon</a></li>
+                         <li><a href="./bike.html">Go Ride</a></li>
+                         
+                         <li><a href="./loging.html">Loging</a></li>
+                    </ul>
+
+               </nav>
+          </div>
+
           <div class="discription-continer">
                <div class="contint">
                     <h2 class="banner-title">
@@ -40,7 +53,7 @@
 
                </div>
                <div class="img-continer">
-                    <img src="./images/main-camera.png" alt="">
+                    <img src="./Images/influncer/main-camera.png" alt="">
 
                </div>
 
@@ -53,13 +66,13 @@
           <section>
                <hr class="line">
                <div class="icon-continer">
-                    <img src="./logos/Alibaba.svg" alt="">
-                    <img src="./logos/Amazon.svg" alt="">
-                    <img src="./logos/Daraz.pk Logo.svg" alt="">
-                    <img src="./logos/Ebay.svg" alt="">
-                    <img src="./logos/Rakuten.svg" alt="">
-                    <img src="./logos/Target.svg" alt="">
-                    <img src="./logos/Walmart.svg" alt="">
+                    <img src="./Images/influncer/logos/Alibaba.svg" alt="">
+                    <img src="./Images/influncer/logos/Amazon.svg" alt="">
+                    <img src="./Images/influncer/logos/Daraz.pk Logo.svg" alt="">
+                    <img src="./Images/influncer/logos/Ebay.svg" alt="">
+                    <img src="./Images/influncer/logos/Rakuten.svg" alt="">
+                    <img src="./Images/influncer/logos/Walmart.svg" alt="">
+                    <img src="./Images/influncer/logos/Target.svg" alt="">
 
                </div>
                <hr class="line">
@@ -259,8 +272,32 @@
           </section>
 
      </main>
-     <!-- this is footer section -->
-     <footer>
+    <!-- this is the footer section -->
+
+     <footer class="footer footer-center text-primary-content p-10">
+          <div class="nav-continer">
+               <div class="title">
+                    <img src="./Images/Group 40071 (2).png" alt="">
+                    <h3 class="nav-title">
+                         Sky <span class="color">Travel</span>
+                    </h3>
+               </div>
+               <aside class="">
+
+                    <p class="Popular-para ">
+                         Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti
+                         vulputate. Leo erat maecenas vitae elementum ultricies nullam.
+                    </p>
+
+               </aside>
+              <div class="flex justify-center">
+                <img src="./icons/Social.svg" alt="">
+              </div>
+              <div>
+               <hr>
+              </div>
+              <hr>
+               <p class="Popular-para text-center">2024, All Rights Reserved.</p>
 
      </footer>
 
