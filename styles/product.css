@@ -129,14 +129,15 @@ border: 0;
 }
 /* this is main section styles */
 .main{
-width: 100%;
+margin-left: 196px;
+margin-right: 196px;
 }
 
 /* this is the icon section style  */
 
 .line{
-     background-image:  linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
-height: 1px;
+background-image:  linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+height: 2px;
 width: 1290px;
 border: 0;
 
