@@ -8,13 +8,12 @@
      font-family: "Mulish", sans-serif;
      font-optical-sizing: auto;
      font-style: normal;
+     margin-left: 196px;
+     margin-right: 196px;
 
 }
 
-/* this is the body section */
-/* .body{
-     max-width: 1450px;
-}
+
 /* this is header section styles */
 
 /* this is nav section style  */
@@ -128,10 +127,7 @@ border: 0;
      background-position-x: right;
 }
 /* this is main section styles */
-.main{
-margin-left: 196px;
-margin-right: 196px;
-}
+
 
 /* this is the icon section style  */
 
