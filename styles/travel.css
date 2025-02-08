@@ -218,7 +218,7 @@ font-weight: 800;
 /* Choose Your Destination section style */
 /* this is first section */
 .img-card-one{
-     background-image: url('/Images/Rectangle 5.png');
+     background-image: url('/Images/Rectangle\ 5.png');
      background-size: cover;
      background-position: center;
      width: 100%;
